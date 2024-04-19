@@ -1,0 +1,234 @@
+:root {
+	--default-green: #1db954;
+	--light-green: #1ed760;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+font-family:Soin-Sans-Neue, Helvetica, Arial, sans-serif;
+}
+
+/* Utility Classes */
+.btn-primary {
+	background: var(--light-green);
+	color: #2941ab;
+	text-transform: uppercase;
+	padding: 15px 32px;
+	border: none;
+	border-radius: 30px;
+	letter-spacing:-0.1px;
+	font-weight: bold;
+	transition: all 300ms ease;
+
+}
+
+.btn-primary:hover {
+background: #43e57d;
+	cursor: pointer;
+		transform: scale(1.1);
+}
+
+.logo {
+	height: 40px;
+	width: auto;
+}
+
+/* Navbar */
+#navbar {
+	display: flex;
+	background-color: rgb(0, 0, 0);
+	color: white;
+	justify-content: center;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+
+#navbar .navbar-container {
+	width: 76.25%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+
+#navbar .navbar-container ul {
+	display: flex;
+	list-style: none;
+	font-weight: bold;
+
+}
+
+#navbar .navbar-container ul li {
+	padding: 0 18px;
+	transition: all 300ms ease;
+
+}
+
+#navbar .navbar-container ul li:hover {
+	color: #1db954;
+	cursor: pointer;
+}
+
+/* Showcase */
+#showcase {
+	background-color: #2941ab;
+	background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+	background-repeat: no-repeat;
+	background-size: 175%;
+    background-position: 46% 4%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 846px;
+}
+
+#showcase .showcase-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#showcase .showcase-container h2 {
+	font-size: 130px;
+ 	width: 800px;
+  text-indent: -3.5em;
+  transform: translate(125px, 0px);
+	box-sizing: border-box;
+  font-family:  Helvetica, Arial, sans-serif;
+  display: block;
+  padding: 90px 120px 0.67em;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 1000;
+  letter-spacing: -10px;
+  line-height: 160px;
+  color: #1ed760;
+  margin-right: -120px;
+}
+
+#showcase .showcase-container p {
+	margin-top: -50px;
+		font-size: 1.20rem;
+		color: #1ed760;
+}
+
+/* Footer */
+#footer {
+	background: black;
+	color: white;
+	padding: 80px 0;
+}
+
+#footer .footer-content {
+	display: flex;
+	width: 76.25%;
+	margin: auto;
+	justify-content: space-between;
+}
+
+#footer .footer-content .footer-menu {
+	margin: 0 60px;
+	list-style: none;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item {
+	margin: 25px 0;
+	transition: all 300ms ease;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+#footer .footer-content .footer-menu p {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #919496;
+	font-size: 0.8rem;
+}
+
+.social-icons {
+  padding-top: 14rem;
+  padding-bottom: 1rem;
+	font-size: 30px;
+  position: relative;
+  top: 10px;
+}
+.social-icons ul {
+   display: flex;
+	 list-style-type: none;
+}
+.social-icons ul li {
+  margin-right: 1.5rem;
+  background: #222326;
+  border-radius: 50%;
+	padding: 0.5rem;
+}
+
+.social-icons img {
+  background: white;
+  display: block;
+	width: 2.3rem;
+
+}
+
+.social-icons img:hover {
+  background: #1ed760;
+	transition: all 300ms ease;
+}
+
+/* Footer Info */
+.footer-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 76.25%;
+	margin: auto;
+	color: #919496;
+	font-size: 0.75rem;
+	padding-top: 50px;
+}
+
+.footer-info .footer-info-items {
+	display: flex;
+	list-style: none;
+}
+
+.footer-info .footer-info-items .footer-info-item {
+	margin: 0 10px;
+	transition: all 300ms ease;
+}
+
+.footer-info .footer-info-items .footer-info-item:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+.footer-info .rights .country {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.footer-info .rights .country p {
+	transition: all 300ms ease;
+}
+
+.footer-info .rights .country p:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+.footer-info .rights .country .World {
+	height: 20px;
+	width: auto;
+	display: inline-block;
+	margin-left: 10px;
+}
